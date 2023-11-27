@@ -1,11 +1,11 @@
-import java.util.*;
+package program4;
 
-class StackAll {
+class Stack {
     Object arr[];
     int top;
     int size;
 
-    StackAll(int size) {
+    Stack(int size) {
         this.size = size;
         arr = new Object[size];
         top = -1;
@@ -34,20 +34,12 @@ class StackAll {
             System.out.print(arr[i] + ", ");
         }
         System.out.println(arr[top]);
-        // System.out.println();
     }
 }
 
-public class StackAllDemo {
+public class StackDemo {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        // System.out.println("Enter the size of the stack");
-        // int size = sc.nextInt();
-        StackAll s = new StackAll(5);
-        // System.out.println("Enter the elements of the stack");
-        // for (int i = 0; i < size; i++) {
-        //     s.push(sc.next());
-        // }
+        Stack s = new Stack(5);
         s.push(1);
         s.push('a');
         s.push("Hello");
@@ -58,6 +50,6 @@ public class StackAllDemo {
         s.display();
         System.out.println("Popped " + s.pop());
         s.display();
-        sc.close();
     }
 }
+

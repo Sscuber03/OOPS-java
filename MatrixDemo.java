@@ -15,6 +15,7 @@ class Matrix {
                 mat[i][j] = sc.nextInt();
             }
         }
+        sc.close();
     }
 
     void display() {

@@ -35,5 +35,6 @@ public class ArrayDemo {
         Array a = new Array(row, col);
         a.rvalue();
         a.display();
+        sc.close();
     }
 }

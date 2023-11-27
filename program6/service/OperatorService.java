@@ -1,7 +1,8 @@
-package myPackage6.service;
+package program6.service;
 
-import myPackage6.adtInterface.Queue;
 import java.util.ArrayList;
+
+import program6.adtInterface.Queue;
 
 public class OperatorService<T> implements Queue<T> {
 

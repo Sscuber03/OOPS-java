@@ -1,6 +1,6 @@
-package myPackage6;
+package program6;
 
-import myPackage6.service.OperatorService;
+import program6.service.OperatorService;
 
 public class Test {
     public static void main(String[] args) {
