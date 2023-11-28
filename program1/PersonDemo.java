@@ -23,7 +23,7 @@ class Person {
 
 public class PersonDemo {
     public static void main(String[] args) {
-        Person p1 = new Person("Ishan", "Gorabazar", 22, "Software Engineer");
+        Person p1 = new Person("Ishan", "Gorabazar", 22, "Software Developer");
         Person p2 = new Person("Soham", "Dum Dum", 20, "Student");
         p1.displayInfo();
         p2.displayInfo();
